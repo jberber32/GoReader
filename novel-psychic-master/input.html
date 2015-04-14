@@ -1,0 +1,24 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<style>
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script>
+	var grabInfo = function(){
+		pages = $("#pages").val();
+		$("#output").replaceWith(pages);
+	};
+	</script>
+</head>
+<body>
+	<body style="background-color:lightgreen;">
+
+	<h1>Input the number of pages of your book</h1>
+		
+	<p id="input">pages: <input type="text" id="pages"><input type="button" id="submit" onclick="grabInfo()" value="Submit"/></p>
+	<p>There are <span id="output"></span> pages in your book!</p>
+	
+	<img src="http://www.vergemagazine.co.uk/girls/wp-content/uploads/Book-pages1533.jpg" alt="Pulpit rock" align="middle" width="400" height="300">
+</body>
+</html> 

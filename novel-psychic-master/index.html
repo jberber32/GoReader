@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<LINK href="index.css" rel="stylesheet" type="text/css">
+	<title>Novel Psychic</title>
+	<!--<script>
+	$(document).ready(function(){
+		takePicture();
+	});</script>-->
+</head>
+
+<body style="
+    background-color: #CCFF99;
+    font-family: Helvetica;
+    text-align: center;
+">
+	<div id='title'><h2>How long will it take to read this novel?</h2></div>
+	<p><h3>Total pages in book: <input type="text" id="pages"></p></h3>
+	<button id="start">start reading the sample page</button>
+	<div id='picture'><img src="bookpage.jpg" height=100% visibility=hidden></div>
+	<button id="stop">stop</button>
+	<h1><span id="minutes"></span></h1>
+</body>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script type="text/javascript" src="stopwatch.js"></script>
+<script type="text/javascript" src="hello/www/js/index.js"></script>
+</html>

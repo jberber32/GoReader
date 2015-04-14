@@ -1,0 +1,13 @@
+#picture {
+	height: 100%;
+	visibility: hidden;
+}
+
+button {
+	font-family: Helvetica;
+	font-size: 12pt;
+	border-radius: 5pt;
+	background-color: #FF8080;
+	margin: 5pt;
+	border: 0pt;
+}
